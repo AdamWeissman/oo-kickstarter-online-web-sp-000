@@ -5,7 +5,6 @@ class Project
   def initialize(title)
     @backers = []
     @title = title
-    @car = "car"
   end
   
   def add_backer(a_person)
